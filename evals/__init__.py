@@ -1,3 +1,6 @@
+
+from dotenv import load_dotenv
+load_dotenv()
 from .api import CompletionFn as CompletionFn
 from .api import CompletionResult as CompletionResult
 from .api import DummyCompletionFn as DummyCompletionFn
